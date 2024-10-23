@@ -66,7 +66,7 @@ const LoginForm = () => {
                     {errors.email && <p className="text-red-500 text-xs mt-1">{errors.email.message}</p>}
                 </div>
 
-                =
+
                 <div className="mb-4">
                     <label className="block text-gray-700 text-sm">Password</label>
                     <input
